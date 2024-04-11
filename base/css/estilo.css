@@ -8,11 +8,14 @@
     color: #ffffff;
     font-style: verdana;
     font-weight: bold;
-    font-size: 45;
+    font-size: 45px;
 }
 
 
 .texto-about {
     color: white;
     font-family: Verdana;
+    font-size: 25px;
 }
+
+
