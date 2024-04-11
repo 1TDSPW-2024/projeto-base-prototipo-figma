@@ -21,3 +21,15 @@
   - [ ] Criar um texto de aviso abaixo do campo  mensagem, informando que o campo  é   obrigatório.
   - [ ] Adicionar uma cor vermelha ao texto.
 
+ ## Equipes
+
+[Equipe Cabecalho]:
+Gabriel-M - Cauã-M - Felipe-M - Leonardo-K - Leonardo-M 
+[Equipe Help]:
+Gustavo - Gabriel-L - Heitor-O - Pedro-C - Banciella - Leonardo-B
+[Equipe About]:
+Heitor-R - Marcos-R - Leonardo-R - Marcos-L - Caroline-A
+[Equipe Rodapé]:
+Izzi - Ruan - Richard - Victor-M - Angelo
+[Equipe Cadastro]:
+Marcos-P - Anderson - Pedro-B - Robert - Cauã-S
