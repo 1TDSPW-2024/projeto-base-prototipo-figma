@@ -4,4 +4,30 @@ html{
 }
 header{
     background-image: url(../img/banner-1280×640.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+header h1{
+    font-size: 80px;
+    color: #fff;
+    margin-left: 20%;
+}
+header > nav > ul{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+    margin: 10px;
+    padding: 0;
+}
+header > nav{
+    background-color: #58565699;
+    border-radius: 20px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin-left: 10%;
 }
