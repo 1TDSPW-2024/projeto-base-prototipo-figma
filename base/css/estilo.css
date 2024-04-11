@@ -6,7 +6,7 @@
 
 .about-h2{
     color: #ffffff;
-    font-style:verdana;
+    font-style:Verdana;
     font-weight:bold ;
     font-size: 45;
 }
@@ -14,4 +14,6 @@
 
 .texto-about
 {color: white;
-font-family: Verdana;}
+font-family: Verdana;
+font-size: 25
+;}
