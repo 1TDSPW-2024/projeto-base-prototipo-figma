@@ -1,17 +1,18 @@
 .section-about {
     width: 50%;
-    background-color:#1F2837;
+    background-color: #1F2837;
 }
 
 
-.about-h2{
+.about-h2 {
     color: #ffffff;
-    font-style:verdana;
-    font-weight:bold ;
+    font-style: verdana;
+    font-weight: bold;
     font-size: 45;
 }
 
 
-.texto-about
-{color: white;
-font-family: Verdana;}
+.texto-about {
+    color: white;
+    font-family: Verdana;
+}
