@@ -1,3 +1,26 @@
+html{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-image: url(../img/banner-1280×640.png);
+    background-position: center center;
+    display: flex;
+    
+}
+header nav{
+    background-color: #353432;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px 5px 10px;
+    padding: 0;
+    column-gap: 20px
 }
