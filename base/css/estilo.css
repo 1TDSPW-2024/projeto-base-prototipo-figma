@@ -5,6 +5,8 @@ html{
 header{
     background-image: url(../img/banner-1280×640.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
     display: flex;
     align-items: center;
     height: 200px;
