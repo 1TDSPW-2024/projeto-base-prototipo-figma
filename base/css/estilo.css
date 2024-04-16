@@ -1,23 +1,31 @@
 .section-about {
-    width: 50%;
-    background-color: #1F2837;
+  width: 50%;
+  background-color: #1f2837;
 
-    padding: 8px 24px;
+  padding: 8px 24px;
 }
-
 
 .about-h2 {
-    color: #ffffff;
-    font-style: verdana;
-    font-weight: bold;
-    font-size: 45px;
+  color: #ffffff;
+  font-style: verdana;
+  font-weight: bold;
+  font-size: 45px;
 }
-
 
 .texto-about {
-    color: white;
-    font-family: Verdana;
-    font-size: 25px;
+  color: white;
+  font-family: Verdana;
+  font-size: 25px;
 }
 
+ul {
+  width: 1px;
+  margin: 0 auto;
+  max-width: 30px;
+  max-height: 10px;
+}
 
+img {
+  margin-left: 280px;
+  height: 50px;
+}
