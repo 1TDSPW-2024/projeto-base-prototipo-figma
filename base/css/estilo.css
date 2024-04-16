@@ -12,6 +12,7 @@ header{
     height: 200px;
 }
 header h1{
+    font-family: sans-serif;
     font-size: 80px;
     color: #fff;
     margin-left: 20%;
