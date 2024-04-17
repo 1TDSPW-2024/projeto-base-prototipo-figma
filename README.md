@@ -30,6 +30,6 @@ Gustavo - Gabriel-L - Heitor-O - Pedro-C - Banciella - Leonardo-B
 [Equipe About]:
 Heitor-R - Marcos-R - Leonardo-R - Marcos-L - Caroline-A
 [Equipe Rodapé]:
-Izzi - Ruan - Richard - Victor-M - Angelo
+Izzi - Ruan - Richard - Victor-M - Angelo - Tamara P.
 [Equipe Cadastro]:
 Marcos-P - Anderson - Pedro-B - Robert - Cauã-S
