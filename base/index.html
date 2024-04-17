@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INICIO</title>
-</head>
-<body>
+    
+    <!-- Referência para colocar Favicon-->
+    <!-- <link rel="icon" href="path"> -->
+    <!-- Referência para colocar arquivos css-->
+    <link rel="stylesheet" href="./css/estilo.css">
+
+  </head>
+
+  <body>
+  
+    <header id="cabecalho">
+
+        <h1>EXEMPLO</h1>
+        
+        <nav>
+            <ul>
+                <li class="link"><a href="#">Item-1</a></li>
+                <li class="link"><a href="#">Item-2</a></li>
+                <li class="link"><a href="#">Item-3</a></li>
+                <li class="link"><a href="#">Item-4</a></li>
+                <li class="link"><a href="#">Item-5</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
     <div>
-        <h1>BASE</h1>
+        <h2>LOGIN</h2>
+        <form>
+            <fieldset>
+                <legend>Faça seu Login</legend>
+                <div>
+                    <label for="idNmUser">Usuário</label>
+                    <input type="text" name="txtNmUser" id="idNmUser" placeholder="Digite seu usuário" pattern="[A-Za-z0-9]{3}">
+                </div>
+                <div>
+                    <label for="idSenha">Senha</label>
+                    <input type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
+                </div>
+                <div>
+                    <button type="button">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
     </div>
-</body>
+
+  </body>
 </html>
+

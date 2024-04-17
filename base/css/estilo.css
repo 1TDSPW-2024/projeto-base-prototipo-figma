@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+    min-width: 519px;
+}
+
+#cabecalho{
+    background-color: #151638;
+    height: 190px;
+    position: relative;
+    /* Aninhamento de seletores */
+    h1{
+        color: #fff;
+        float: left;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+
+    nav{
+        float: right;
+        position: absolute;
+        top: 50%;
+        right: 10%;
+    }
+    
+    .link{ 
+        display: inline;
+        a{
+            color: #fff;
+        }
+
+        &:hover{
+            background-color: brown;
+        }
+    }
+}
+
+
+
+/* Adicione um efeito ao elemento h1 que está aninhado ao elemento #cabecalho. */
+
+/* Adicione um efeito aos elementos a que estão aninhados aos elementos li que são filhos de ul que é filha de nav que é filha de #cabecalho. */
+
+/* #cabecalho nav ul li a{
+    color: #fff;
+} */
