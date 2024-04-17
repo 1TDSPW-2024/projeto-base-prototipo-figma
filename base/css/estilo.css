@@ -27,7 +27,6 @@ header > nav > ul{
 }
  
 header > nav{
-    background-color: #58565699;
     border-radius: 20px;
     height: 100px;
     align-items: center;
@@ -35,4 +34,10 @@ header > nav{
     display: flex;
     padding: 0;
     margin-left: 5%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
