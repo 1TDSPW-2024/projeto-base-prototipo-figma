@@ -41,7 +41,7 @@ nav ul {
     margin: 0;
     display: flex;
 }
-nav ul il {
+nav ul li {
     margin-left: 50px;
 }
 nav ul li:first-child{
@@ -57,4 +57,7 @@ header h1 {
     color: #fff;
     margin-left: 8%;
     margin-right: 170px;
+}
+nav ul li:first-child {
+    margin-left: 30px;
 }
