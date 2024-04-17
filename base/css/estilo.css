@@ -41,3 +41,13 @@ nav ul {
     margin: 0;
     display: flex;
 }
+nav ul il {
+    margin-left: 50px;
+}
+nav ul li:first-child{
+    margin-left: 0; 
+}
+nav ul li a img {
+    width: 80px;
+    height: auto;
+}
