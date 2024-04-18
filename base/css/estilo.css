@@ -24,7 +24,6 @@ body, html {
     border-radius: 10px;
     padding: 0 100px;
     display: inherit;
-    justify-content: space-between;
 }
 .opcoes-footer a
 {
@@ -35,4 +34,5 @@ body, html {
 {
     display: flex;
     padding: 2rem;
+    justify-content: space-between;
 }
