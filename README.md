@@ -26,9 +26,9 @@
 [Equipe Cabecalho]:
 Gabriel-M - Cauã-M - Felipe-M - Leonardo-K - Leonardo-M 
 [Equipe Help]:
-Gustavo - Gabriel-L - Heitor-O - Pedro-C - Banciella - Leonardo-B
+Gustavo-B - Gabriel-L - Heitor-O - Pedro-C - Banciella - Leonardo-B
 [Equipe About]:
-Heitor-R - Marcos-R - Leonardo-R - Marcos-L - Caroline-A
+Heitor-R - Marcos-R - Leonardo-R - Marcos-L - Caroline-A - Lucas-B
 [Equipe Rodapé]:
 Izzi - Ruan - Richard - Victor-M - Angelo - Tamara P.
 [Equipe Cadastro]:
