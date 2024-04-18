@@ -1,3 +1,4 @@
+
 html{
     margin: 0;
     padding: 0;
@@ -61,3 +62,123 @@ header h1 {
 nav ul li:first-child {
     margin-left: 30px;
 }
+
+.section-about {
+  width: 50%;
+  background-color: #1f2837;
+
+  padding: 8px 24px;
+}
+
+.about-h2 {
+  color: #ffffff;
+  font-style: verdana;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.texto-about {
+  color: white;
+  font-family: Verdana;
+  font-size: 25px;
+}
+
+ul {
+  width: 1px;
+  margin: 0 auto;
+  max-width: 30px;
+  max-height: 10px;
+}
+
+img {
+  margin-left: 280px;
+  height: 50px;
+}
+
+
+.box {
+    width: 740px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing:  border-box;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+.atencao {
+    color: red;
+    margin-left: 10px;
+}
+.div-cadastro{
+   
+        float: right;
+        height: 70vh;
+        width: 50%;
+        background-color: rgba(30, 40, 54, 0.85);
+        margin-top: 50px; /* Desce a div 50px */
+        clear: right;
+      
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 70px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+    min-width: 519px;
+}
+
+#cabecalho{
+    background-color: #151638;
+    height: 190px;
+    position: relative;
+    /* Aninhamento de seletores */
+    h1{
+        color: #fff;
+        float: left;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+
+    nav{
+        float: right;
+        position: absolute;
+        top: 50%;
+        right: 10%;
+    }
+    
+    .link{ 
+        display: inline;
+        a{
+            color: #fff;
+        }
+
+        &:hover{
+            background-color: brown;
+        }
+    }
+}
+
+
+
+/* Adicione um efeito ao elemento h1 que está aninhado ao elemento #cabecalho. */
+
+/* Adicione um efeito aos elementos a que estão aninhados aos elementos li que são filhos de ul que é filha de nav que é filha de #cabecalho. */
+
+/* #cabecalho nav ul li a{
+    color: #fff;
+} */

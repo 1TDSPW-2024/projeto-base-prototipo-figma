@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIO</title>
     <link rel="stylesheet" href="./css/estilo.css">
+    <title>INICIO</title>
 </head>
-<body>
+<body>    
+    <!-- Referência para colocar Favicon-->
+    <!-- <link rel="icon" href="path"> -->
+    <!-- Referência para colocar arquivos css-->
+  </head>
+
+  <body>
+  
     <header>
         <h1>PROTÓTIPO</h1>
         <nav>
@@ -17,7 +24,27 @@
             </ul>
         </nav>
     </header>
+
     <div>
+        <h2>LOGIN</h2>
+        <form>
+            <fieldset>
+                <legend>Faça seu Login</legend>
+                <div>
+                    <label for="idNmUser">Usuário</label>
+                    <input type="text" name="txtNmUser" id="idNmUser" placeholder="Digite seu usuário" pattern="[A-Za-z0-9]{3}">
+                </div>
+                <div>
+                    <label for="idSenha">Senha</label>
+                    <input type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
+                </div>
+                <div>
+                    <button type="button">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
     </div>
-</body>
+
+  </body>
 </html>
+
