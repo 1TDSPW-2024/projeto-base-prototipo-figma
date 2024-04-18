@@ -6,11 +6,35 @@
 #container{
     color: white;
     background-color: #1e2837;
+    width: 600px;
+    height: 230px;
+    padding: 7px 20px;
+}
 
+.logo-help img {
+    width: 30px;   
+    float: right; 
+    padding: 2px;
+}
+
+.titulo-help{
+
+font-family:'Lucida Sans Regular';
+font-size: 30px;
+font-style: bold;
 }
 
 p{
+    padding: 35px;
     font-size: 20px;
+    font-family:'Lucida Sans Regular';
+    font-style: normal;
+}
+
+hr{
+
+    border: 1px solid black;
+    display: flex;
 }
 
  
