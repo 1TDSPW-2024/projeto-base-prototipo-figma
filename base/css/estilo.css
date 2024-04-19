@@ -11,9 +11,10 @@ body, html {
 
 .opcoes-footer img{
     box-sizing: border-box; 
-
     display: inline;
     align-items: center;
+    margin-right: 10px;
+    width: 45%;
     
 }
 
@@ -28,11 +29,16 @@ body, html {
 .opcoes-footer a
 {
     display: flex;
-    
+    align-items:center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   
 }
 .botoes-footer
 {
     display: flex;
     padding: 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
