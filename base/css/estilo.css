@@ -18,7 +18,7 @@ body, html {
     align-items: center;
     margin-right: 10px;
     width: 45%;
-    
+    filter: brightness(0) invert(1); 
 }
 
 /*Estiliza com borda branca, sem quebra de linha, cantos arredondados e padding horizontal.*/
@@ -39,7 +39,8 @@ body, html {
     text-decoration: none;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:900
+    font-weight:900;
+    
    
 }
 /*Configura botões com exibição flexivel.*/
