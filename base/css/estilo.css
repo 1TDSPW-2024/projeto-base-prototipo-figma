@@ -22,31 +22,31 @@ header{
   font-weight: normal;
 }
 
-.container-esquerdo{
+.container-esquerdo {
   width: 50%;
   height: 70vh;
   display: flex;
   flex-direction: column;
 }
 
-.help{
+.help {
   flex: 1;
 }
 
-.about{
+.about {
   flex: 1;
 }
 
-.titulo-about{
+.titulo-about {
   padding: 20px;
 }
 
-.about > p{
+.about > p {
   margin-right: 20px;
   padding-left: 40px;
 }
 
-.about > hr{
+.about > hr {
   background-color: #ffffff;
   height: 5px;
   margin: 20px;
@@ -73,12 +73,12 @@ header{
   display: flex;
 }
 
-.cadastro{
+.cadastro {
   border-left: 10px solid #ffffff;
   flex: 1;
 }
 
-footer{
+footer {
   background-color: #1e2836;
   height: 15vh;
 }
