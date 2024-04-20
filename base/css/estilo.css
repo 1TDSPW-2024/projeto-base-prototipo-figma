@@ -27,6 +27,26 @@
   flex: 1;
 }
 
+.titulo-about{
+  padding: 20px;
+}
+
+.about > p{
+  margin-right: 20px;
+  padding-left: 40px;
+}
+
+.img-about > img{
+  width: 40px;
+}
+
+.titulo-about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container{
   display: flex;
 }
@@ -34,12 +54,4 @@
 .cadastro{
   flex: 1;
   border: 1px solid #ffffff;
-}
-
-.titulo-about{
-  padding: 20px;
-}
-
-.about > p{
-  padding-left: 40px;
 }
