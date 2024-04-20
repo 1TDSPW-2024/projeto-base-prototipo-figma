@@ -15,7 +15,7 @@ body {
   width: 690px;
   padding: 10px;
   top: 100px;
-  border: 2px solid rgb(170, 160, 160);
+  border: 5px solid rgb(170, 160, 160);
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 16px;
@@ -24,7 +24,7 @@ body {
 }
 
 .atencao {
-  margin-left: 35px;
+  margin-left: 30px;
   color: red;
   float: left;
 }
