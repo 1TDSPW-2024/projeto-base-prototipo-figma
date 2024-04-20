@@ -4,17 +4,22 @@
   margin: 0;
   background-color: #1e2836d9;
   color: #ffffff;
+  font-family: sans-serif;
+}
+
+header{
+  background-color: #1e2836;
+  height: 15vh;
 }
 
 .item {
-  border: 1px solid #ffffff;
   font-size: 1.25em;
   font-weight: normal;
 }
 
 .container-esquerdo{
   width: 50%;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
 }
@@ -36,6 +41,12 @@
   padding-left: 40px;
 }
 
+.about > hr{
+  background-color: #ffffff;
+  height: 5px;
+  margin: 20px;
+}
+
 .img-about > img{
   width: 40px;
 }
@@ -45,15 +56,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-
-.container{
-  display: flex;
-}
-
-.cadastro{
-  flex: 1;
-  border: 1px solid #ffffff;
 }
 
 .mais{
@@ -73,4 +75,18 @@
   display: flex;
   flex-direction: row-reverse;
   padding: 20px;
+}
+
+.container{
+  display: flex;
+}
+
+.cadastro{
+  border-left: 10px solid #ffffff;
+  flex: 1;
+}
+
+footer{
+  background-color: #1e2836;
+  height: 15vh;
 }
