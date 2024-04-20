@@ -7,7 +7,7 @@
   font-family: sans-serif;
 }
 
-header{
+header {
   background-color: #1e2836;
   height: 15vh;
 }
@@ -17,76 +17,58 @@ header{
   font-weight: normal;
 }
 
-.container-esquerdo{
+.container-esquerdo {
   width: 50%;
   height: 70vh;
   display: flex;
   flex-direction: column;
 }
 
-.help{
+.help {
   flex: 1;
 }
 
-.about{
+.about {
   flex: 1;
 }
 
-.titulo-about{
+.titulo-about {
   padding: 20px;
 }
 
-.about > p{
+.about > p {
   margin-right: 20px;
   padding-left: 40px;
 }
 
-.about > hr{
+.about > hr {
   background-color: #ffffff;
   height: 5px;
   margin: 20px;
 }
 
-.img-about > img{
+.img-about > img {
   width: 40px;
+  margin-left: 680px;
 }
 
-.titulo-about{
+.titulo-about {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
-.mais{
-  justify-content: end;
-  align-items: end;
-  background-color: #1e2836;
-  color: #ffffff;
-  padding: 4px 22px;
-  cursor: pointer;
-  font-size: 15px;
-  font: bolder;
-  border: 2px solid #ffffff;
-  border-radius: 3%;
-}
-
-.botao-mais{
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 20px;
-}
-
-.container{
+.container {
   display: flex;
 }
 
-.cadastro{
+.cadastro {
   border-left: 10px solid #ffffff;
   flex: 1;
 }
 
-footer{
+footer {
   background-color: #1e2836;
   height: 15vh;
 }
