@@ -1,60 +1,65 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
 .box {
-    width: 740px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing:  border-box;
-    font-size: 16px;
-    margin-left: 10px;
-
+  width: 740px;
+  padding: 10px;
+  margin-top: 85px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #ffffff;
 }
 
 .atencao {
-    color: red;
-    margin-left: 10px;
+  margin-left: 5px;
+  color: red;
+  text-align: left;
 }
-.div-cadastro{
-   
-        position: relative;
-        float: right;
-        height: 70vh;
-        width: 50%;
-        background-color: rgba(30, 40, 54, 0.85);
-        margin-top: 50px; /* Desce a div 50px */
-        clear: right;
-      
-
-}
-
-h2{
-    position: absolute;
-    left: 222px;
-    text-align: center;
-    margin-top: 124px;
-    color: #ffffff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    font-size: 75px;
-
+.div-cadastro {
+  position: relative;
+  float: right;
+  height: 70vh;
+  width: 50%;
+  background-color: rgba(30, 40, 54, 0.85);
+  margin-top: 50px; /* Desce a div 50px */
+  clear: right;
+  text-align: center;
 }
 
-.button-send{
-    position: absolute;
-    top: 557px;
-    left: 272px;
-    width: 230px;
-    height: 85px;
-    background-color: #1e2836;
-    color: #ffffff;
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 8px;
-    
-    border-color: #ffffff;
+h2 {
+  position: fixed;
+  left: 1300px;
+  top: 75px;
+  text-align: center;
+  margin-top: 80px;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
+  font-size: 75px;
+}
 
-    font-size: 50px;
+.button-send {
+  position: relative;
+  top: 450px;
+  left: 30px;
+  width: 230px;
+  height: 85px;
+  background-color: #1e2836;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
 
+  border-color: #ffffff;
+
+  font-size: 50px;
 }
