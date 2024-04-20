@@ -1,87 +1,46 @@
+<!--Configurando o Documento-->
 <!DOCTYPE html>
 <html lang="pt-br">
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INICIO</title>
-    <link rel="stylesheet" href="css/estilo.css" />
-  </head>
-
-  <body>
-    <main>
-      <section class="section-about">
-       
-          <a class="img-about" href="#about">
-            <img
-              src="./img/exclamacao.png"
-              alt="Circulo com exclamação preta no meio."
-            />
-          </a>
-       
-        <h2 class="about-h2">ABOUT</h2>
-        <p class="texto-about">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sed
-          et accusantium ipsa nemo non quis soluta totam dolorem sint. Ducimus
-          neque accusantium, a natus repellendus labore optio consectetur
-          maiores porro harum, perspiciatis, fugit explicabo enim ipsam
-          recusandae est inventore laborum dicta perferendis ea temporibus
-          eligendi doloremque mollitia. Unde, eveniet voluptate. Aspernatur
-          doloribus minus tempore cum magnam mollitia odio eum eligendi
-          assumenda inventore ex omnis asperiores provident laudantium esse
-          modi, cupiditate a voluptatum voluptates libero ipsam autem
-          reprehenderit dolore! Adipisci cumque autem accusantium, delectus
-          neque voluptatibus consequuntur quae dolorum nostrum molestiae minima
-          deleniti explicabo reprehenderit corrupti aperiam officia! Asperiores,
-          id.
-        </p>
-      </section>
-    </main>
-  </body>
-</html>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
-    <title>INICIO</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width:device-width,initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <title>CheckPoint 1</title>
 </head>
-<body>
-    <div>
-        <h1>BASE</h1>
-        <!--Criar div do direito da tela e altura centralizada cor cinza-->
-        <div class="div-cadastro">
-            <h2>Cadastro</h2>
-            <form>
-                <div>
-                <label for="idNm"></label>
-                <input class="box"
-                        type="text"
-                        name="txtNm"
-                        id="idNm"
-                        placeholder="Nome Completo"
-                      />
-                </div>
-                <div>
-                    <span class="atencao">*campo obrigatorio</span>
-                </div>
-                <br/>
-                <br/>
-                <div>
-                      <label for="idEmail"></label>
-                      <input class="box"
-                        type="email"
-                        name="txtEmail"
-                        id="idEmail"
-                        placeholder="Email"
-                      />
-                </div>
-                <div>
-                    <span class="atencao">*campo obrigatorio</span>
-                </div>
-            </form>
+
+<!-- Grupo Cabeçalho -->
+<header>
+header
+</header>
+
+<!-- Flex Grupos Help|About|Cadastro -->
+<div class="container">
+  <div class="container-esquerdo">
+      <div class="item help">
+        
+        Help
+
+      </div>
+      <div class="item about">
+        <h1 class="titulo-about">ABOUT</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+      </div>
     </div>
+  <div class="item cadastro">
+    
+    Cadastro
 
-</body>
-</html>
+  </div>
+</div>
 
+<!-- Grupo Rodapé -->
+<footer>
+footer
+</footer>
