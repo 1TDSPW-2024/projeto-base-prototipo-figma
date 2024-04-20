@@ -26,6 +26,23 @@
     </header>
 
     <div>
+
+        <h1>BASE</h1>
+        <!--Criar div do direito da tela e altura centralizada cor cinza-->
+        <div class="div-cadastro">
+            <h2>CADASTRO</h2>
+            <form>
+                <button type="submit" class="button-send"> Send </button>
+                <div>
+                <label for="idNm"></label>
+                <input class="box-cadastro"
+                        type="text"
+                        name="txtNm"
+                        id="idNm"
+                        placeholder="Nome Completo"
+                        required
+                      >
+
         <h2>LOGIN</h2>
         <form>
             <fieldset>
@@ -33,16 +50,38 @@
                 <div>
                     <label for="idNmUser">Usuário</label>
                     <input type="text" name="txtNmUser" id="idNmUser" placeholder="Digite seu usuário" pattern="[A-Za-z0-9]{3}">
+
                 </div>
                 <div>
                     <label for="idSenha">Senha</label>
                     <input type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
                 </div>
+
+                <br/>
+                <br/>
+                <!--teste-->
+                <div>
+                      <label for="idEmail"></label>
+                      <input class="box-cadastro"
+                        type="email"
+                        name="txtEmail"
+                        id="idEmail"
+                        placeholder="Email"
+                        pattern="[A-Za-z0-9]{3}" required
+                      >
+                </div>
+                <div>
+                    <span class="atencao">*campo obrigatorio</span>
+                </div>
+            </form>
+
+
                 <div>
                     <button type="button">Enviar</button>
                 </div>
             </fieldset>
         </form>
+
     </div>
 
   </body>
