@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   justify-content: center;
   align-items: center;
@@ -6,60 +12,57 @@ body {
 }
 
 .box {
-  width: 740px;
+  width: 690px;
   padding: 10px;
-  margin-top: 85px;
-  border: 1px solid #ccc;
+  top: 100px;
+  border: 2px solid rgb(170, 160, 160);
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 16px;
   margin-left: 10px;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .atencao {
-  margin-left: 5px;
+  margin-left: 35px;
   color: red;
-  text-align: left;
+  float: left;
 }
 .div-cadastro {
   position: relative;
   float: right;
   height: 70vh;
   width: 50%;
-  background-color: rgba(30, 40, 54, 0.85);
+  background-color: #3f4855;
   margin-top: 50px; /* Desce a div 50px */
   clear: right;
   text-align: center;
 }
 
 h2 {
-  position: fixed;
   left: 1300px;
-  top: 75px;
+  top: 120px;
   text-align: center;
   margin-top: 80px;
   color: #ffffff;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
-  font-size: 75px;
+  font-size: 60px;
 }
 
 .button-send {
   position: relative;
-  top: 450px;
+  align-items: center;
+  top: 320px;
   left: 30px;
   width: 230px;
-  height: 85px;
+  height: 100px;
   background-color: #1e2836;
   color: #ffffff;
   padding: 10px 20px;
-  font-size: 20px;
   cursor: pointer;
   border-radius: 8px;
-
   border-color: #ffffff;
-
   font-size: 50px;
 }
