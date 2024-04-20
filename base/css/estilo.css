@@ -55,3 +55,22 @@
   flex: 1;
   border: 1px solid #ffffff;
 }
+
+.mais{
+  justify-content: end;
+  align-items: end;
+  background-color: #1e2836;
+  color: #ffffff;
+  padding: 4px 22px;
+  cursor: pointer;
+  font-size: 15px;
+  font: bolder;
+  border: 2px solid #ffffff;
+  border-radius: 3%;
+}
+
+.botao-mais{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
