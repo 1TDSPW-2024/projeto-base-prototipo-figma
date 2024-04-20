@@ -7,6 +7,11 @@
   font-family: sans-serif;
 }
 
+body{
+  color:#1e2836;
+  background-color:#1e2836;
+}
+
 header{
   background-color: #1e2836;
   height: 15vh;
@@ -47,34 +52,21 @@ header{
   margin: 20px;
 }
 
-.img-about > img{
-  width: 40px;
-}
-
-.titulo-about{
+.img-about{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-
-.mais{
-  justify-content: end;
-  align-items: end;
-  background-color: #1e2836;
-  color: #ffffff;
-  padding: 4px 22px;
-  cursor: pointer;
-  font-size: 15px;
-  font: bolder;
-  border: 2px solid #ffffff;
-  border-radius: 3%;
-}
-
-.botao-mais{
   display: flex;
   flex-direction: row-reverse;
   padding: 20px;
+}
+
+.img-about > img{
+  width: 40px;
+  justify-content: end;
+  align-items: end;
+  cursor: pointer;
 }
 
 .container{
