@@ -6,8 +6,27 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <title>INICIO</title>
 </head>
-<body>
+<body>    
+    <!-- Referência para colocar Favicon-->
+    <!-- <link rel="icon" href="path"> -->
+    <!-- Referência para colocar arquivos css-->
+  </head>
+
+  <body>
+  
+    <header>
+        <h1 class="titulo">PROTÓTIPO</h1>
+        <nav>
+            <ul>
+                <li><a href="../prototipo/paginas/contato"><img src="./img/contato.png" alt="imagem representativa da página contato."></a></li>
+                <li><a href="../prototipo/paginas/sobre"><img src="./img/sobre.png" alt="imagem representativa da página sobre."></a></li>
+                <li><a href="../prototipo/paginas/email"><img src="./img/email.png" alt="imagem representativa que leva ao e-mail."></a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div>
+
         <h1>BASE</h1>
         <!--Criar div do direito da tela e altura centralizada cor cinza-->
         <div class="div-cadastro">
@@ -16,23 +35,34 @@
                 <button type="submit" class="button-send"> Send </button>
                 <div>
                 <label for="idNm"></label>
-                <input class="box"
+                <input class="box-cadastro"
                         type="text"
                         name="txtNm"
                         id="idNm"
                         placeholder="Nome Completo"
                         required
                       >
+
+        <h2>LOGIN</h2>
+        <form>
+            <fieldset>
+                <legend>Faça seu Login</legend>
+                <div>
+                    <label for="idNmUser">Usuário</label>
+                    <input type="text" name="txtNmUser" id="idNmUser" placeholder="Digite seu usuário" pattern="[A-Za-z0-9]{3}">
+
                 </div>
                 <div>
-                    <span class="atencao">*campo obrigatorio</span>
+                    <label for="idSenha">Senha</label>
+                    <input type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
                 </div>
+
                 <br/>
                 <br/>
                 <!--teste-->
                 <div>
                       <label for="idEmail"></label>
-                      <input class="box"
+                      <input class="box-cadastro"
                         type="email"
                         name="txtEmail"
                         id="idEmail"
@@ -45,7 +75,15 @@
                 </div>
             </form>
 
+
+                <div>
+                    <button type="button">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+
     </div>
 
-</body>
+  </body>
 </html>
+
