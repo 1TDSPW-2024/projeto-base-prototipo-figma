@@ -56,53 +56,53 @@ header nav ul li a img {
 
 .div-cadastro {
   position: relative;
-  float: right;
-  height: 70vh;
+  float: left; /* Alterado para float left */
   width: 50%;
   background-color: #3f4855;
-  padding: 20px; /* Adicionado padding para melhorar a aparência */
+  padding: 20px;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
+  height:62vh; /* Alterado para alinhar à esquerda */
 }
 
-h2 {
-  margin-top: 70px;
-  color: #ffffff;
-  font-family: roboto;
-  font-size: 70px;
-  text-align: center;
+
+  h2 {
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 40px; /* Reduzido o tamanho da fonte para caber melhor na caixa */
+    text-align: left; /* Alterado para alinhar à esquerda */
+    margin-top: 20px; /* Reduzido o espaçamento superior */
 }
 
 .box-cadastro {
-  width: 680px;
+  width: 100%; /* Ajustado para ocupar toda a largura da caixa */
   padding: 10px;
   border: 5px solid #ccc;
   border-radius: 5px;
-  font-size: 30px;
-  margin-left: 10px;
+  font-size: 20px; /* Reduzido o tamanho da fonte para caber melhor na caixa */
   background-color: white;
 }
 
 .atencao {
   color: red;
-  font-size: 20px;
-  margin-left: 10px;
-  float: left;
+  font-size: 14px; /* Reduzido o tamanho da fonte para caber melhor na caixa */
+  margin-left: 0; /* Removido o margin-left */
+  float: none; /* Removido o float */
 }
 
 .button-send {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  top: 320px;
-  left: 30px;
-  width: 230px;
-  height: 100px;
+  width: auto;
+  height: auto;
   background-color: #1e2836;
   color: #ffffff;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 8px;
   border-color: #ffffff;
-  font-size: 50px;
+  font-size: 20px;
+  margin-top: 40px; /* Aumente o valor para mover o botão para baixo da div row email */
 }
+
+
+
+
