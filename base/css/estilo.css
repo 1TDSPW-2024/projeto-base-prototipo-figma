@@ -1,3 +1,59 @@
+
+/*Css do rodapé, fundo escuro, larugura total e fixo em baixo*/
+footer {
+    background-color: #1E2836;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/*Define altura mínima de 100%*/
+body, html {
+    min-height: 100%;
+}
+
+/*alinhadas ao centro, com margem direita e largura de 45%*/
+.opcoes-footer img{
+    box-sizing: border-box; 
+    display: inline;
+    align-items: center;
+    margin-right: 10px;
+    width: 45%;
+    filter: brightness(0) invert(1); 
+}
+
+/*Estiliza com borda branca, sem quebra de linha, cantos arredondados e padding horizontal.*/
+.opcoes-footer
+{
+    border: 4px solid white;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    padding: 0 100px;
+    display: inherit;
+}
+/*Exibe links flexivelmente alinhados ao centro, em branco, sem sublinhado e em negrito.*/
+.opcoes-footer a
+{
+    display: flex;
+    align-items:center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    
+   
+}
+/*Configura botões com exibição flexivel.*/
+.botoes-footer
+{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -212,6 +268,4 @@ h2 {
   font-size: 50px;
 }
 
-footer {
-  /*esse footer tava bugando tudo, precisei tirar e coloquei aqui em baixo para referencia de quem criou ele*/
-}
+
