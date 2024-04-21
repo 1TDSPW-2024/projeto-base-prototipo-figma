@@ -24,7 +24,7 @@ header {
 
 .container-esquerdo {
   width: 50%;
-  height: 70vh;
+  /* height: 70vh; */
   display: flex;
   flex-direction: column;
 }
@@ -111,8 +111,6 @@ hr {
 }
 
 body {
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   margin: 0;
 }
@@ -130,7 +128,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 12%; /* Adicionado padding uniforme */
+  padding: 20px 12%;
+  /* Adicionado padding uniforme */
   height: 200px;
 }
 
@@ -212,6 +211,7 @@ h2 {
   border-color: #ffffff;
   font-size: 50px;
 }
+
 footer {
   /*esse footer tava bugando tudo, precisei tirar e coloquei aqui em baixo para referencia de quem criou ele*/
 }
