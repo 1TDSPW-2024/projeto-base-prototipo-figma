@@ -7,6 +7,7 @@
   font-family: sans-serif;
 }
 
+
 body{
   color:#1e2836;
   background-color:#1e2836;
@@ -81,4 +82,150 @@ header{
 footer {
   background-color: #1e2836;
   height: 15vh;
+
+*{
+    padding: 0;
+    margin: 0;
 }
+
+#container{
+    color: white;
+    background-color: #1e2837;
+    width: 600px;
+    height: 230px;
+    padding: 7px 20px;
+}
+
+.logo-help img {
+    width: 30px;   
+    float: right; 
+    padding: 2px;
+}
+
+.titulo-help{
+
+font-family:'Lucida Sans Regular';
+font-size: 30px;
+font-style: bold;
+}
+
+p{
+    padding: 35px;
+    font-size: 20px;
+    font-family:'Lucida Sans Regular';
+    font-style: normal;
+}
+
+hr{
+
+    border: 1px solid black;
+    display: flex;
+}
+
+ 
+
+
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../img/banner-1280×640.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 12%; /* Adicionado padding uniforme */
+  height: 200px;
+}
+
+header .titulo {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: #fff;
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header nav ul li:first-child {
+  margin-left: 0;
+}
+
+header nav ul li a img {
+  width: 80px;
+  height: auto;
+}
+
+.div-cadastro {
+  position: relative;
+  float: right;
+  height: 70vh;
+  width: 50%;
+  background-color: #3f4855;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 70px;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 70px;
+  text-align: center;
+}
+
+.box-cadastro {
+  width: 680px;
+  padding: 10px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-left: 10px;
+  background-color: white;
+
+}
+
+.atencao {
+  color: red;
+  font-size: 20px;
+  margin-left: 10px;
+  float: left;
+}
+
+.button-send {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 320px;
+  left: 30px;
+  width: 230px;
+  height: 100px;
+  background-color: #1e2836;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: #ffffff;
+  font-size: 50px;
+}
+
