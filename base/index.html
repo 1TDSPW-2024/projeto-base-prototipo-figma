@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
     <title>INICIO</title>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
     <body>
         <div id ="container">
             <div class="logo-help">
@@ -24,3 +26,71 @@
         <hr>
     </body>
 </html>
+
+<body>    
+    <!-- Referência para colocar Favicon-->
+    <!-- <link rel="icon" href="path"> -->
+    <!-- Referência para colocar arquivos css-->
+  </head>
+
+  <body>
+  
+    <header>
+        <h1 class="titulo">PROTÓTIPO</h1>
+        <nav>
+            <ul>
+                <li><a href="../prototipo/paginas/contato"><img src="./img/contato.png" alt="imagem representativa da página contato."></a></li>
+                <li><a href="../prototipo/paginas/sobre"><img src="./img/sobre.png" alt="imagem representativa da página sobre."></a></li>
+                <li><a href="../prototipo/paginas/email"><img src="./img/email.png" alt="imagem representativa que leva ao e-mail."></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+
+        <!--Criar div do direito da tela e altura centralizada cor cinza-->
+        <div class="div-cadastro">
+            <h2>CADASTRO</h2>
+            <form>
+            
+                    <button type="submit" class="button-send"> Send </button>
+                    <div>
+                        <label for="idNm"></label>
+                        <input class="box-cadastro"
+                                type="text"
+                                name="txtNm"
+                                id="idNm"
+                                placeholder="Nome Completo"
+                                required
+                            >
+                    </div>
+                    <div>
+                        <span class="atencao">*campo obrigatorio</span>
+                    </div>
+                    <br/>
+                    <br/>
+                    <!--teste-->
+                    <div>
+                        <label for="idEmail"></label>
+                        <input class="box-cadastro"
+                            type="email"
+                            name="txtEmail"
+                            id="idEmail"
+                            placeholder="Email"
+                            pattern="[A-Za-z0-9]{3}" required
+                        >
+                    </div>
+                    <div>
+                        <span class="atencao">*campo obrigatorio</span>
+                    </div>
+                </form>
+
+            
+        </form>
+
+    </div>
+
+  </body>
+</html>
+
+
