@@ -41,12 +41,12 @@ header {
   padding: 20px;
 }
 
-.about > p {
+.about>p {
   margin-right: 20px;
   padding-left: 40px;
 }
 
-.about > hr {
+.about>hr {
   background-color: #ffffff;
   height: 5px;
   margin: 20px;
@@ -62,7 +62,7 @@ header {
   padding: 20px;
 }
 
-.img-about > img {
+.img-about>img {
   width: 40px;
   justify-content: end;
   align-items: end;
@@ -130,7 +130,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 12%; /* Adicionado padding uniforme */
+  padding: 20px 12%;
+  /* Adicionado padding uniforme */
   height: 200px;
 }
 
@@ -212,6 +213,7 @@ h2 {
   border-color: #ffffff;
   font-size: 50px;
 }
+
 footer {
   /*esse footer tava bugando tudo, precisei tirar e coloquei aqui em baixo para referencia de quem criou ele*/
 }
