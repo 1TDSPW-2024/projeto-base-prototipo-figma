@@ -1,124 +1,139 @@
 <!--Configurando o Documento-->
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width:device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <title>Index</title>
+  </head>
 
-<head>
+  <body>
+    <!-- Grupo Cabeçalho -->
+    <header>
+      <h1 class="titulo">PROTÓTIPO</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="../prototipo/paginas/contato"
+              ><img
+                src="./img/contato.png"
+                alt="imagem representativa da página contato."
+            /></a>
+          </li>
+          <li>
+            <a href="../prototipo/paginas/sobre"
+              ><img
+                src="./img/sobre.png"
+                alt="imagem representativa da página sobre."
+            /></a>
+          </li>
+          <li>
+            <a href="../prototipo/paginas/email"
+              ><img
+                src="./img/email.png"
+                alt="imagem representativa que leva ao e-mail."
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width:device-width,initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/estilo.css">
-  <title>Index</title>
-</head>
-
-<body>
-  <!-- Grupo Cabeçalho -->
-  <header>
-    <h1 class="titulo">PROTÓTIPO</h1>
-    <nav>
-      <ul>
-        <li><a href="../prototipo/paginas/contato"><img src="./img/contato.png"
-              alt="imagem representativa da página contato."></a></li>
-        <li><a href="../prototipo/paginas/sobre"><img src="./img/sobre.png"
-              alt="imagem representativa da página sobre."></a></li>
-        <li><a href="../prototipo/paginas/email"><img src="./img/email.png"
-              alt="imagem representativa que leva ao e-mail."></a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Flex Grupos Help|About|Cadastro -->
-  <div class="container">
-    <div class="container-esquerdo">
-      <div class="item help">
-        Insira Aqui o Help
+    <!-- Flex Grupos Help|About|Cadastro -->
+    <div class="container">
+      <div class="container-esquerdo">
+        <div class="item help">Insira Aqui o Help</div>
+        <div class="item about">
+          <hr />
+          <h1 class="titulo-about">ABOUT</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+            exercitationem quae accusamus aspernatur. Necessitatibus, explicabo
+            cumque voluptatem soluta dolorum doloribus consequuntur nobis, quo
+            iure at ipsa deserunt quam unde accusamus culpa molestias natus
+            temporibus error non sequi laborum impedit ut? Recusandae nostrum
+            repellat dolorem voluptate alias deleniti, vero officia voluptatem!
+          </p>
+          <a
+            class="img-about"
+            href="./about.html"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="./img/exclamacao.png" alt="Botão de informação" />
+          </a>
+        </div>
       </div>
-      <div class="item about">
-        <hr>
-        <h1 class="titulo-about">ABOUT</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum exercitationem quae accusamus aspernatur.
-          Necessitatibus, explicabo cumque voluptatem soluta dolorum doloribus consequuntur nobis, quo iure at ipsa
-          deserunt quam unde accusamus culpa molestias natus temporibus error non sequi laborum impedit ut? Recusandae
-          nostrum repellat dolorem voluptate alias deleniti, vero officia voluptatem!
+      <div id="container">
+        <div class="logo-help">
+          <a href="">
+            <img src="./img/ajuda.png" alt="Ponto de interrogação" />
+          </a>
+        </div>
+        <h1 class="titulo-help">HELP</h1>
+        <p class="texto-help">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+          inventore, consectetur aut, fuga obcaecati, voluptate harum mollitia
+          explicabo suscipit facilis neque? Porro fuga ullam numquam quidem
+          optio illo quod non excepturi sapiente neque voluptas quasi?
         </p>
-        <a class="img-about" href="./about.html" target="_blank" rel="noopener">
-          <img src="./img/exclamacao.png" alt="Botão de informação" />
-        </a>
       </div>
 
+      <hr />
 
+      <!-- Referência para colocar Favicon-->
+      <!-- <link rel="icon" href="path"> -->
+      <!-- Referência para colocar arquivos css-->
 
-    </div>
-    <div id="container">
-      <div class="logo-help">
-        <a href="">
-          <img src="./img/ajuda.png" alt="Ponto de interrogação">
-        </a>
+      <div>
+        <!--Criar div do direito da tela e altura centralizada cor cinza-->
+        <!--<div class="div-cadastro">*Modificado<-->
+        <!-- inicio cadastro-->
+
+        <!--</div> *Modificado<-->
+        <div class="item cadastro">
+          <h2>CADASTRO</h2>
+          <form>
+            <button type="submit" class="button-send">Send</button>
+            <div>
+              <label for="idNm"></label>
+              <input
+                class="box-cadastro"
+                type="text"
+                name="txtNm"
+                id="idNm"
+                placeholder="Nome Completo"
+                required
+              />
+            </div>
+            <div>
+              <span class="atencao">*campo obrigatorio</span>
+            </div>
+            <br />
+            <br />
+            <!--teste-->
+            <div>
+              <label for="idEmail"></label>
+              <input
+                class="box-cadastro"
+                type="email"
+                name="txtEmail"
+                id="idEmail"
+                placeholder="Email"
+                pattern="[A-Za-z0-9]{3}"
+                required
+              />
+            </div>
+            <div>
+              <span class="atencao">*campo obrigatorio</span>
+            </div>
+          </form>
+        </div>
       </div>
-      <h1 class="titulo-help"> HELP</h1>
-      <p class="texto-help">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum inventore, consectetur aut, fuga obcaecati,
-        voluptate harum mollitia explicabo suscipit facilis neque? Porro fuga ullam numquam quidem optio illo quod non
-        excepturi sapiente neque voluptas quasi?
-      </p>
 
+      <!-- Grupo Rodapé -->
+      <footer>Insira Aqui o Rodapé</footer>
     </div>
-
-    <hr>
-
-
-
-
-    <!-- Referência para colocar Favicon-->
-    <!-- <link rel="icon" href="path"> -->
-    <!-- Referência para colocar arquivos css-->
-
-
-    <div>
-
-      <!--Criar div do direito da tela e altura centralizada cor cinza-->
-      <!--<div class="div-cadastro">*Modificado<-->
-      <!-- inicio cadastro-->
-
-
-
-      <!--</div> *Modificado<-->
-      <div class="item cadastro">
-        <h2>CADASTRO</h2>
-        <form>
-
-          <button type="submit" class="button-send"> Send </button>
-          <div>
-            <label for="idNm"></label>
-            <input class="box-cadastro" type="text" name="txtNm" id="idNm" placeholder="Nome Completo" required>
-          </div>
-          <div>
-            <span class="atencao">*campo obrigatorio</span>
-          </div>
-          <br />
-          <br />
-          <!--teste-->
-          <div>
-            <label for="idEmail"></label>
-            <input class="box-cadastro" type="email" name="txtEmail" id="idEmail" placeholder="Email"
-              pattern="[A-Za-z0-9]{3}" required>
-          </div>
-          <div>
-            <span class="atencao">*campo obrigatorio</span>
-          </div>
-        </form>
-
-
-        </form>
-      </div>
-    </div>
-
-
-    <!-- Grupo Rodapé -->
-    <footer>
-      Insira Aqui o Rodapé
-    </footer>
-</body>
-
+  </body>
 </html>
