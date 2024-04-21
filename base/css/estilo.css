@@ -24,7 +24,7 @@ header {
 
 .container-esquerdo {
   width: 50%;
-  height: 70vh;
+  /* height: 70vh; */
   display: flex;
   flex-direction: column;
 }
@@ -111,8 +111,6 @@ hr {
 }
 
 body {
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   margin: 0;
 }
