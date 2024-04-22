@@ -1,3 +1,60 @@
+/*Css do rodapé, fundo escuro, larugura total e fixo em baixo*/
+footer {
+  background-color: #1e2836;
+  width: 100%;
+}
+
+/*Define altura mínima de 100%*/
+body,
+html {
+  min-height: 100%;
+}
+
+/*alinhadas ao centro, com margem direita e largura de 45%*/
+.opcoes-footer img {
+  box-sizing: border-box;
+  display: inline;
+  align-items: center;
+  margin-right: 10px;
+  width: 20%;
+}
+
+.opcoes-footer p {
+  padding: 0 !important;
+  width: 50%;
+}
+
+footer button {
+  border: none;
+}
+/*Estiliza com borda branca, sem quebra de linha, cantos arredondados e padding horizontal.*/
+.opcoes-footer {
+  margin-top: 1rem;
+  border: 4px solid white;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+
+  display: inherit;
+}
+/*Exibe links flexivelmente alinhados ao centro, em branco, sem sublinhado e em negrito.*/
+.opcoes-footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+/*Configura botões com exibição flexivel.*/
+.botoes-footer {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -29,8 +86,25 @@ header {
   flex-direction: column;
 }
 
-.help {
-  flex: 1;
+.logo-help {
+  width: 97%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+.titulo-help {
+  padding: 20px;
+  font: bold 40px sans-serif;
+}
+
+.texto-help {
+  margin-right: 20px;
+  padding-left: 40px;
+}
+.logo-help > a > img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
 
 .about {
@@ -84,18 +158,6 @@ header {
   width: 600px;
   height: 230px;
   padding: 7px 20px;
-}
-
-.logo-help img {
-  width: 30px;
-  float: right;
-  padding: 2px;
-}
-
-.titulo-help {
-  font-family: "Lucida Sans Regular";
-  font-size: 30px;
-  font-style: bold;
 }
 
 p {
@@ -212,6 +274,7 @@ h2 {
   font-size: 50px;
 }
 
+
 footer {
   /*esse footer tava bugando tudo, precisei tirar e coloquei aqui em baixo para referencia de quem criou ele*/
 }
@@ -223,3 +286,4 @@ footer {
 .p-about {
   padding: 0px 40px 40px 40px;
 }
+

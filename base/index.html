@@ -1,6 +1,14 @@
 <!--Configurando o Documento-->
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+</html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width:device-width,initial-scale=1.0" />
@@ -43,21 +51,25 @@
     <!-- Flex Grupos Help|About|Cadastro -->
     <div class="container">
       <div class="container-esquerdo">
-        <div class="item help">
+        <div class="item-help">
           <!-- Insira Aqui o Help -->
-          <div id="container">
-            <div class="logo-help">
-              <a href="">
-                <img src="./img/ajuda.png" alt="Ponto de interrogação" />
-              </a>
+          <div id="container-help">
+            <div class="conteudo-help">
+              <h1 class="titulo-help">HELP</h1>
+
+              <p class="texto-help">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                inventore, consectetur aut, fuga obcaecati, voluptate harum
+                mollitia explicabo suscipit facilis neque? Porro fuga ullam
+                numquam quidem optio illo quod non excepturi sapiente neque
+                voluptas quasi?
+              </p>
+              <div class="logo-help">
+                <a href="./help.html" target="_blank" rel="noopener">
+                  <img src="./img/ajuda.png" alt="Ponto de interrogação" />
+                </a>
+              </div>
             </div>
-            <h1 class="titulo-help">HELP</h1>
-            <p class="texto-help">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-              inventore, consectetur aut, fuga obcaecati, voluptate harum mollitia
-              explicabo suscipit facilis neque? Porro fuga ullam numquam quidem
-              optio illo quod non excepturi sapiente neque voluptas quasi?
-            </p>
           </div>
         </div>
         <div class="item about">
@@ -137,6 +149,34 @@
 
       <!-- Grupo Rodapé -->
     </div>
-    <footer>Insira Aqui o Rodapé</footer>
+    <footer>
+        <nav class="botoes-footer">
+             <!--Seção de links para redes sociais no rodapé-->
+            <div class="opcoes-footer">
+                 <!--link para o Github-->
+                <button>
+                  <a href="https://www.github.com" target="_blank"> <img src="./img/icon-github.webp" alt="Simbulo referente ao Github, uma plataforma de hospedagem de códigos"><p>Github</p></a>
+                </button>
+
+            </div>
+            
+            <div class="opcoes-footer">
+                <!--link para o Google-->
+                <button>
+                  <a href="https://www.google.com" target="_blank"><img src="./img/icon-google.webp" alt="Simbolo Google em preto e branco "><p>Google</p></a>
+                </button>
+                
+            </div>
+            
+            <div class="opcoes-footer">
+                <!--link para o Twitter-->
+                <button>
+                  <a href="https://twitter.com/" target="_blank"><img src="./img/icon-twitter.webp" alt="Simbolo X em preto referente a rede social"><p>Twitter</p></a>
+                </button>
+                
+            </div>
+       </nav>
+    </footer>
   </body>
 </html>
+
