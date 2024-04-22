@@ -3,8 +3,6 @@
 footer {
     background-color: #1E2836;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 /*Define altura mínima de 100%*/
@@ -18,17 +16,28 @@ body, html {
     display: inline;
     align-items: center;
     margin-right: 10px;
-    width: 45%;
-    filter: brightness(0) invert(1); 
+    width: 20%;
+    
 }
 
+.opcoes-footer p
+{
+  padding: 0 !important;
+  width: 50%;
+}
+
+footer button
+{
+  border: none;
+}
 /*Estiliza com borda branca, sem quebra de linha, cantos arredondados e padding horizontal.*/
 .opcoes-footer
 {
+    margin-top: 1rem;
     border: 4px solid white;
     flex-wrap: nowrap;
     border-radius: 10px;
-    padding: 0 100px;
+    
     display: inherit;
 }
 /*Exibe links flexivelmente alinhados ao centro, em branco, sem sublinhado e em negrito.*/
@@ -36,11 +45,13 @@ body, html {
 {
     display: flex;
     align-items:center;
+    justify-content: center;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:900;
+    
     
    
 }
