@@ -273,3 +273,17 @@ h2 {
   border-color: #ffffff;
   font-size: 50px;
 }
+
+
+footer {
+  /*esse footer tava bugando tudo, precisei tirar e coloquei aqui em baixo para referencia de quem criou ele*/
+}
+
+.h1-about {
+  padding: 20px 20px 20px 20px
+}
+
+.p-about {
+  padding: 0px 40px 40px 40px;
+}
+
